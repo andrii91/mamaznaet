@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PhosphateSolid';
+    src: url('PhosphateSolid.eot');
+    src: url('PhosphateSolid.eot?#iefix') format('embedded-opentype'),
+        url('PhosphateSolid.woff2') format('woff2'),
+        url('PhosphateSolid.woff') format('woff'),
+        url('PhosphateSolid.ttf') format('truetype'),
+        url('PhosphateSolid.svg#PhosphateSolid') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+

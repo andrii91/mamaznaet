@@ -1,0 +1,492 @@
+& {
+  .pay-item h1 {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+  }
+
+  .pay-item form label {
+    width: calc(100% - 20px);
+  }
+
+  .pay-pack .pay-price {
+    letter-spacing: 0;
+    font-size: 20px;
+  }
+
+  .order-btn {
+    display: inline-block;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    box-shadow: 1px 6px 13px rgba(255, 96, 5, .26);
+    background-color: #ff6005;
+    padding: 20px 22px;
+    border-radius: 8px;
+    transition: .3s;
+    border: 0;
+    cursor: pointer;
+  }
+
+  .pay_timer-title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .timer div {
+    width: 47px;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .timer span {
+    font-size: 25px;
+  }
+
+  .timer .title {
+    letter-spacing: 0;
+  }
+
+  #nav-icon {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+
+
+  #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: #0f0f81;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  #nav-icon span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+  }
+
+  #nav-icon span:nth-child(odd) {
+    left: 0px;
+    border-radius: 9px 0 0 9px;
+  }
+
+  #nav-icon span:nth-child(1),
+  #nav-icon span:nth-child(2) {
+    top: 0px;
+  }
+
+  #nav-icon span:nth-child(3),
+  #nav-icon span:nth-child(4) {
+    top: 10px;
+  }
+
+  #nav-icon span:nth-child(5),
+  #nav-icon span:nth-child(6) {
+    top: 20px;
+  }
+
+  #nav-icon.open span:nth-child(1),
+  #nav-icon.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #nav-icon.open span:nth-child(2),
+  #nav-icon.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #nav-icon.open span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  #nav-icon.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  #nav-icon.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  #nav-icon.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  #nav-icon.open span:nth-child(5) {
+    left: 5px;
+    top: 17px;
+  }
+
+  #nav-icon.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 17px;
+  }
+
+  #nav-icon {
+    float: right;
+    margin-top: 10px;
+
+  }
+
+  header,
+  footer,
+  main {
+    overflow: hidden;
+  }
+
+  .logo {
+    display: inline-block;
+
+    img {
+      width: 54px;
+    }
+  }
+
+  .menu {
+    display: none;
+
+    li {
+      display: block;
+      margin: 20px 0 ;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .header {
+    min-height: inherit;
+    text-align: left;
+    padding-top: 60px;
+    margin-top: 0;
+    background-size: cover;
+  }
+
+  br {
+    display: none;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .header-igm {
+    display: none;
+  }
+
+  nav {
+    background: #fff;
+  }
+
+  .header-item h1 {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+
+  .header-item p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .header-item .date {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .header-item .date img {
+        margin-right: 7px;
+    max-height: 30px;
+  }
+
+  .header-item blockquote {
+    margin-top: 22px;
+  }
+
+  .h2-title,
+  .programs .h2-title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+  }
+
+  .h2-subtitle {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .area-item {
+    margin-bottom: 20px;
+  }
+
+  .area-title {
+    font-size: 28px;
+    line-height: 3.5;
+  }
+
+  .area-item .title {
+    font-size: 16px;
+
+    br {
+      display: block;
+    }
+  }
+
+  .area-bottom {
+    border: 13px solid #947dc2;
+    padding: 45px 2px;
+    color: #161616;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .programs-point,
+  .point {
+    display: none;
+  }
+
+  .programs-list > li {
+    padding: 15px 12px;
+
+    .title {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.2;
+      letter-spacing: 0;
+
+    }
+  }
+
+  .format {
+    padding-top: 40px;
+  }
+
+  .format-item.right {
+    padding-left: 11px;
+  }
+
+  .format-info .span {
+    min-height: 35px;
+    color: #2b2b2b;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.2;
+    width: calc(100% - 54px);
+    margin-left: auto;
+  }
+
+  .speacker-img {
+    text-align: center;
+
+    img {
+//      max-height: 35vh;
+      width: 100%;
+    }
+  }
+
+  .speacker-item .name {
+    color: #33435d;
+    font-family: Gilroy;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.4;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 20px;
+    br {
+      display: block;
+    }
+  }
+
+  .speacker-item ul li {
+    font-size: 16px;
+  }
+
+  .speacker-photo li:nth-child(odd) {
+    margin-top: 0;
+  }
+
+  .speacker-photo {
+    text-align: center;
+    display: none;
+
+    li {
+      margin-top: 0;
+      max-width: 29%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .results-img {
+    text-align: center;
+
+    img {
+      max-height: 35vh;
+    }
+  }
+  .package .h2-subtitle {
+    flex-shrink: 16px;
+  }
+  .package-item.one {
+    margin-right: 0;
+    margin-bottom: 25px;
+}
+  .package-item {
+    padding: 40px 15px;
+  }
+  .schedule-subtitle {
+    color: #2b2b2b;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+  .schedule table th {
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0;
+}
+  .schedule table th:first-child {
+    font-weight: 400;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: initial;
+    padding-left: 8px;
+}
+  .schedule table td:first-child {
+    padding-left: 5px;
+    text-align: left;
+    line-height: 1;
+}
+  .schedule table td {
+    color: #2b2b2b;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #eae9ee;
+    span {
+      display: block;
+      &:before {
+        display: none;
+      }
+    }
+}
+  .schedule table {
+    margin-bottom: 30px;
+  }
+  .timer-title {
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    padding-left: 0;
+    margin-bottom: 12px;
+    text-align: center;
+}
+  .graf-item {
+    text-align: center;
+    .timer {
+      margin-bottom: 30px;
+    }
+  }
+  .schedule {
+    padding-bottom: 60px;
+  }
+  .guarantee {
+    text-align: center;
+    padding-bottom: 60px;
+    img {
+      margin-bottom: 20px;
+      max-height: 35vh;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.2;
+    }
+  }
+  .footer {
+    text-align: center;
+    .footer-menu {
+      margin: 40px 0;
+    }
+    .footer-item {
+      margin-top: 40px;
+    }
+  }
+  .schedule table:before {
+    display: none;
+  }
+  .container, .speacker .container {
+max-width: 520px;}
+}
+.format-img {
+  text-align: center;
+}

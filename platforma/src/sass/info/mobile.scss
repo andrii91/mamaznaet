@@ -1,0 +1,401 @@
+& {
+
+  #nav-icon {
+    width: 40px;
+    height: 25px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+
+
+  #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: #fff;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  #nav-icon span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+  }
+
+  #nav-icon span:nth-child(odd) {
+    left: 0px;
+    border-radius: 9px 0 0 9px;
+  }
+
+  #nav-icon span:nth-child(1),
+  #nav-icon span:nth-child(2) {
+    top: 0px;
+  }
+
+  #nav-icon span:nth-child(3),
+  #nav-icon span:nth-child(4) {
+    top: 10px;
+  }
+
+  #nav-icon span:nth-child(5),
+  #nav-icon span:nth-child(6) {
+    top: 20px;
+  }
+
+  #nav-icon.open span:nth-child(1),
+  #nav-icon.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #nav-icon.open span:nth-child(2),
+  #nav-icon.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #nav-icon.open span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  #nav-icon.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  #nav-icon.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  #nav-icon.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  #nav-icon.open span:nth-child(5) {
+    left: 5px;
+    top: 17px;
+  }
+
+  #nav-icon.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 17px;
+  }
+
+  #nav-icon {
+    float: right;
+    margin-top: 10px;
+
+  }
+
+  header,
+  footer,
+  main {
+    overflow: hidden;
+  }
+
+  .logo {
+    display: inline-block;
+  }
+
+  .menu {
+    display: none;
+
+    li {
+      display: block;
+      margin: 20px 0;
+      width: 100%;
+
+      a {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .header-title {
+    font-size: 19px;
+
+    span {
+      font-size: 18px;
+    }
+  }
+
+  .more-btn {
+    font-size: 10px;
+
+  }
+
+  .header-item {
+    padding: 9px;
+    box-shadow: 0px 0px 15px #bdc0ed;
+
+    background-color: rgba(232, 232, 232, .27);
+    margin-bottom: 10px;
+    position: relative;
+    transition: .3s;
+
+    &.lessons {
+      box-shadow: 0px 0px 15px #f4bcd7;
+
+      &:nth-child(1) {
+        position: relative;
+        margin-top: 10px;
+
+        &:before {
+          content: "";
+          width: 100%;
+          height: 1px;
+          background-color: #ffd0c2;
+          position: absolute;
+          top: -10px;
+          left: 0;
+        }
+      }
+    }
+
+    &:hover {
+      box-shadow: 0px 0px 15px #bdc0ed;
+
+      &.lessons {
+        box-shadow: 0px 0px 15px #f4bcd7;
+      }
+    }
+
+
+    .img {
+      min-height: 75px;
+      background-color: #ffffff;
+      text-align: center;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+
+      img {
+        //      width: 100%;
+        max-width: 14.063vw;
+        max-height: 17.188vw;
+      }
+    }
+
+    .title {
+      color: #000044;
+      font-family: "Casper";
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1;
+      font-weight: 700;
+
+      span {
+        color: #1d26f3;
+      }
+    }
+
+    p {
+      color: #747177;
+      font-family: Casper;
+      font-size: 10px;
+      line-height: 1;
+      margin-top: 5px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .video-item {
+    br {
+      display: none;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .course-info {
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .speaker-item p {
+    font-size: 16px;
+  }
+
+  &.postid-17 .header-title {
+    font-size: 26px;
+  }
+
+  .acquaintance-item .task ul li {
+    font-size: 14px;
+  }
+
+  .acquaintance-item p {
+    font-size: 14px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .acquaintance-item h2 {
+    font-size: 25px;
+  }
+
+  .acquaintance-item h3 {
+    font-size: 21px;
+  }
+
+  .acquaintance-item .img {
+    margin-bottom: 45px;
+  }
+
+  .lessons_bl h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+    span {
+      font-size: 28px;
+    }
+  }
+
+  .lessons_bl h2 {
+    font-size: 18px;
+
+    b,
+    strong {
+      font-size: 20px;
+      display: block;
+    }
+  }
+
+  .lessons_bl {
+    br {
+      display: none;
+    }
+  }
+
+  .lessons_bl iframe {
+    margin-bottom: 15px;
+  }
+  
+      .bonus-item {
+      text-align: left;
+      background: 0 0;
+
+      h2 {
+        font-size: 21px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        font-family: Montserrat;
+
+        span {
+          color: #1230bf;
+          font-size: 23px;
+          font-family: Montserrat;
+
+        }
+        }
+
+        h3 {
+          font-size: 21px;
+          font-family: Montserrat;
+
+        }
+      }
+
+.video {
+  font-size: 12px;
+}
+  
+}
+
+* {
+  font-family: "Casper";
+}
+
+&.postid-16 {
+
+  .header-title {
+    font-size: 24px;
+
+  }
+
+  .video {
+    text-align: center;
+
+    .bonus-item {
+      text-align: left;
+      background: 0 0;
+      br {
+        display: none;
+      }
+
+      h2 {
+        font-size: 21px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+        font-family: Montserrat;
+
+        span {
+          color: #1230bf;
+          font-size: 23px;
+          font-family: Montserrat;
+
+        }
+
+        h3 {
+          font-size: 21px;
+          font-family: Montserrat;
+
+        }
+      }
+    }
+
+  }
+
+}
+&.single-o_matters .acquaintance-item h2 {
+    font-size: 18px;
+    line-height: 1.2;
+}

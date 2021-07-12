@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+    @import '../desktop';
+  .header-igm {
+    display: block;
+  }
+  nav {
+    background:  0 0;
+  }
+}

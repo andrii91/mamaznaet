@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Super.eot');
+    src: url('DrukWideCyr-Super.eot?#iefix') format('embedded-opentype'),
+        url('DrukWideCyr-Super.woff2') format('woff2'),
+        url('DrukWideCyr-Super.woff') format('woff'),
+        url('DrukWideCyr-Super.ttf') format('truetype'),
+        url('DrukWideCyr-Super.svg#DrukWideCyr-Super') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Medium.eot');
+    src: url('DrukWideCyr-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DrukWideCyr-Medium.woff2') format('woff2'),
+        url('DrukWideCyr-Medium.woff') format('woff'),
+        url('DrukWideCyr-Medium.ttf') format('truetype'),
+        url('DrukWideCyr-Medium.svg#DrukWideCyr-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('DrukTextWideCyr-Super.eot');
+    src: url('DrukTextWideCyr-Super.eot?#iefix') format('embedded-opentype'),
+        url('DrukTextWideCyr-Super.woff2') format('woff2'),
+        url('DrukTextWideCyr-Super.woff') format('woff'),
+        url('DrukTextWideCyr-Super.ttf') format('truetype'),
+        url('DrukTextWideCyr-Super.svg#DrukTextWideCyr-Super') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Bold.eot');
+    src: url('DrukWideCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DrukWideCyr-Bold.woff2') format('woff2'),
+        url('DrukWideCyr-Bold.woff') format('woff'),
+        url('DrukWideCyr-Bold.ttf') format('truetype'),
+        url('DrukWideCyr-Bold.svg#DrukWideCyr-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Heavy.eot');
+    src: url('DrukWideCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('DrukWideCyr-Heavy.woff2') format('woff2'),
+        url('DrukWideCyr-Heavy.woff') format('woff'),
+        url('DrukWideCyr-Heavy.ttf') format('truetype'),
+        url('DrukWideCyr-Heavy.svg#DrukWideCyr-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

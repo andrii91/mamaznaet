@@ -1,0 +1,15 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+
+  .xs-first {
+    -ms-flex-order: inherit;
+    order: inherit;
+  }
+
+  .container {
+    max-width: 100%;
+
+  }
+}

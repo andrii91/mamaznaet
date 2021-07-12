@@ -1,0 +1,11 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .graph table:before {
+      left: 88px;
+    }
+  }
+}

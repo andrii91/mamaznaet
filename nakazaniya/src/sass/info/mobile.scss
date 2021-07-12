@@ -1,0 +1,241 @@
+& {
+  br {
+    display: none;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  header,
+  main,
+  footer {
+    overflow: hidden;
+  }
+
+  img,
+  .head-img img,
+  .theme-img img,
+  .result-img img {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .head-item h1 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+
+  .head-item h5 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .order-btn {
+    padding: 14px 34px;
+    font-size: 19px;
+    line-height: 1.2;
+  }
+
+  .head-img {
+    margin-top: 35px;
+  }
+
+  .section h2 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+  }
+
+  .info-item {
+    display: block;
+    text-align: center;
+    margin-bottom: 35px;
+
+    .title {
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .info-img {
+    margin: 20px 0;
+  }
+
+  .mt-50 {
+    margin-top: 20px;
+  }
+
+  .theme-item .title {
+    line-height: 1.2;
+  }
+
+  .h2-subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+  }
+
+  .alert p {
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000;
+  }
+
+  .result-img img {
+    margin-bottom: 20px;
+  }
+
+  .result-info {
+    font-size: 19px;
+    line-height: 1.2;
+  }
+
+  .graf-tbl tbody tr:first-child td {
+    padding-top: 20px;
+  }
+
+  .graf-tbl thead th {
+    background: #FFD200;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .graf-tbl tbody tr td {
+    padding: 25px 10px;
+    text-align: center;
+    font-family: Circe;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  .timer-title {
+    margin-top: 12px;
+  }
+
+  .graf {
+    text-align: center;
+
+    .timer {
+      margin-bottom: 35px;
+    }
+  }
+
+  .timer {
+    text-align: center;
+
+    div {
+      width: 20px
+    }
+  }
+
+
+  .timer span {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  .graf-tbl {
+    margin-top: 0;
+  }
+
+  .speaker-img {
+    text-align: center;
+    display: block;
+  }
+
+  .speaker-img img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .smi-list {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .reviews-item {
+    min-height: initial;
+    line-height: 1;
+  }
+
+  .footer {
+    text-align: center;
+
+    &-menu {
+      margin: 35px 0;
+    }
+  }
+
+  .footer-item {
+    margin-top: 35px;
+  }
+
+  .pay .pay-item {
+    padding: 30px 15px;
+  }
+
+  .pay .pay-item h1 {
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: inherit;
+    margin-bottom: 25px;
+  }
+
+  .pay {
+    padding-bottom: 50px;
+  }
+
+  .infoList {
+    margin-top: 0;
+  }
+
+  .theme-img {
+    img {
+      max-height: 35vh;
+    }
+  }
+
+  .programs-item {
+    min-height: 360px;
+    padding-top: 90px;
+    max-width: 380px;
+    .content {
+      max-width: 236px;
+
+      h4 {
+        font-size: 31px;
+        line-height: 1;
+        margin-bottom: 15px;
+      }
+
+      h5 {
+        min-height: inherit;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 19px;
+      }
+    }
+  }
+
+  .price-item {
+    ul {
+      min-height: inherit;
+    }
+
+    margin-bottom: 45px;
+  }
+  .speaker-item .title {
+    display: none;
+  }
+}

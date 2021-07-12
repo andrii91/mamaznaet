@@ -1,0 +1,16 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .graf-tbl {
+      margin-left: 9;
+      margin-right: 9;
+      width: 100%;
+    }
+    .guarantee-img {
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .container {
+      max-width: 580px;
+
+    }
+
+    .speaker-img {
+      text-align: center;
+      display: block;
+    }
+  }
+}

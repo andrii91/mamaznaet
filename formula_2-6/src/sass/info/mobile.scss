@@ -1,0 +1,381 @@
+& {
+
+  header,
+  main {
+    overflow: hidden;
+  }
+
+  header {
+    background-position: 0% 50%;
+    padding: 40px 0 0;
+    background-size: cover;
+  }
+
+  .header-item {
+    text-align: center;
+
+    h1 {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 12px;
+
+      br {
+        display: none
+      }
+    }
+  }
+
+  header .order-btn {
+    margin-top: 20px;
+  }
+
+  .order-btn {
+    font-size: 14px;
+  }
+
+  .header-item h1 span {
+    font-size: 48px;
+  }
+
+  .info,
+  .section_1,
+  .section_2,
+  .section_3,
+  .section_4,
+  .programs,
+  .section_7 {
+    padding: 40px 0;
+  }
+
+  .xs-none {
+    display: none;
+  }
+
+  .h2-title {
+    font-size: 20px;
+
+    br {
+      display: none;
+    }
+  }
+
+  .info-item p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .section_2-list li {
+    padding-left: 47px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .programs-item .title {
+    font-size: 18px;
+  }
+
+  .programs-item {
+    margin-top: 10px;
+  }
+
+  .programs .btn-box {
+    margin-bottom: 0;
+  }
+
+  .programs-item p {
+    font-size: 1rem;
+  }
+
+  .speacker {
+    min-height: inherit;
+    padding: 40px 0;
+  }
+
+  .speacker-item {
+    margin-top: 10px;
+  }
+
+  .speacker-item .title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .speacker-list li {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 560px;
+  }
+
+  .programs-item .title > span {
+    display: block;
+  }
+
+  .online-item .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .price-item .content ul {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+
+  .bonus-item {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .bonus-item .title {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .bonus-img {
+    margin-bottom: 10px;
+  }
+
+  .increase-table tr:first-child td {
+    font-size: 8px;
+  }
+
+  .price_pay h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 17px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .price_pay-item {
+    font-size: 15px;
+    text-align: center;
+
+    &.old {
+      font-size: 17px;
+    }
+  }
+
+  .price_pay h2 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+  .price_pay {
+    padding: 30px 0 0;
+    margin-bottom: 20px;
+  }
+
+  .header-form h2 {
+    text-transform: uppercase;
+    color: #f2c022;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .countdownHolder .title {
+    font-size: 14px;
+  }
+
+  
+
+  .bonus-item ul li {
+    text-align: left;
+  }
+
+  footer {
+    text-align: center;
+
+    .footer-list {
+      text-align: center;
+
+      li {
+        display: block;
+      }
+    }
+  }
+
+  .menu {
+    text-align: center;
+    display: none;
+
+    li {
+      display: block;
+      margin-bottom: 30px;
+
+      a {
+        margin: 0 !important;
+
+      }
+    }
+  }
+
+  .mob-btn {
+    display: block;
+  }
+
+  header {
+    padding-top: 120px;
+  }
+
+  .h2-title {
+    br {
+      display: block;
+    }
+  }
+
+  .error_bottom {
+    font-size: 17px;
+  }
+
+  .section_3-item p {
+    font-size: 14px;
+  }
+
+  .error_block {
+    text-align: center;
+  }
+
+  .error_block .svg img {
+    width: 100%;
+    max-width: 140px;
+  }
+
+  .error_block-item p {
+    font-size: 14px;
+
+    b {
+      font-size: 15px;
+    }
+  }
+
+  .h3-title {
+    font-size: 14px;
+    margin: 20px 0;
+  }
+
+  .programs-item ul li {
+    padding-left: 35px;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+.price-box .title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  text-align: center;
+}
+  
+.price-summ {
+    font-weight: 900;
+    font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+  .study-img {
+    margin-bottom: 10px;
+  }
+  .study-item .title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+  .study, .study-video, .promise, .guarantee, .about {
+    padding: 30px 0;
+  }
+  
+
+.guarantee-item {
+    font-size: 17px;
+  text-align: center;
+}
+  .decktop-none {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .results-item .title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+  .results-item p {
+    font-size: 12px;
+  }
+  .price-img {
+    text-align: center;
+  }
+  .price-summ .old {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+  .section_3-item .h2-title {
+    margin-bottom: 20px;
+  }
+  .section_3-item ul li:nth-child(2), .section_3-item ul li:nth-child(3) {
+    margin-top: 20px;
+  }
+  .block_1 {
+    background: 0 0;
+    min-height: inherit;
+    padding: 40px 0;
+    margin-top: 0;
+  }
+  .block_1-item {
+    text-align: center;
+  }
+  .error_block-list li {
+    padding-left: 0;
+    span {
+      position: static;
+      display: block;
+    }
+  }
+  .programs {
+    background: 0 0;
+  }
+  .pr-title {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 2px;
+    margin-top: 26px;
+}
+  .programs-item ul {
+    margin-bottom: 0;
+  }
+  .change-img {
+    margin: 0 0 25px;
+  }
+  .smi-list li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    max-width: 70px;
+    width: 100%;
+}
+  .increase {
+    margin-top: 50px;
+    .h2-title {
+      margin-bottom: 20px;
+    }
+  }
+  .bonus-img {
+    margin-top: 40px;
+  }
+}
