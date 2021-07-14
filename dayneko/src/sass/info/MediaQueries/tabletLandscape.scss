@@ -1,5 +1,24 @@
 @import '../../mq';
 
 @media #{$tabletLandscape} {
-    @import '../desktop';
+  @import '../desktop';
+  .xs-none {
+    display: none;
+  }
+  header,
+  main,
+  footer {
+    overflow: hidden;
+  }
+
+  .cause-item .subtitle {
+    max-width: 420px;
+  }
+
+  main {
+    img {
+      max-width: 100%;
+    }
+
+  }
 }

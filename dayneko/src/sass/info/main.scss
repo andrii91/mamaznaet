@@ -222,10 +222,10 @@ main {}
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 100px 0 90px;
-  background: url('../images/hbg.webp') no-repeat center ;
+  padding: 83px 0 0;
+  background: url('../images/hbg.webp') no-repeat center bottom;
   background-size: cover;
-
+  min-height: 654px;
   &.pay {
     min-height: 89vh;
     background: rgba(196, 196, 196, 0.35);
@@ -1499,6 +1499,9 @@ body .xs-block {
   padding: 60px 0;
   margin-left: auto;
   margin-right: auto;
+  .h2-title {
+    margin-bottom: 40px;
+  }
 }
 
 
@@ -1613,7 +1616,7 @@ text-align: center;
 
 
 html {
-  min-width: 375px;
+  min-width: 414px;
 }
 
 .header-row {
@@ -1941,7 +1944,7 @@ color: #fff;
 
 .header-img {
   img {
-    max-width:  735px;
+    max-width:  565px;
   }
 }
 .owl-carousel .owl-nav button.owl-prev,
@@ -2162,7 +2165,7 @@ color: #fff;
     margin: 0 auto;
     max-width: 500px;
     li {
-      padding-left: 40px;
+      padding-left: 30px;
       position: relative;
       font-family: Roboto;
       font-style: normal;
@@ -2174,9 +2177,9 @@ color: #fff;
 
       &:before {
         content: "";
-        background: url('../images/check11.png') no-repeat;
-        width: 28px;
-        height: 28px;
+        background: url('../images/checkmark.svg') no-repeat;
+        width: 19px;
+        height: 19px;
         background-size: 100%;
         position: absolute;
         top: 0;
@@ -3244,7 +3247,6 @@ color: #1F232F;
   padding: 0;
   margin: 0;
   list-style: none;
-  max-width: 348px;
   li {
       font-family: Roboto;
       font-style: normal;
@@ -3252,14 +3254,14 @@ color: #1F232F;
       font-size: 18px;
       line-height: 21px;
       color: #000000;
-      padding-left: 24px;
+      padding-left: 34px;
     position: relative;
     margin-bottom: 10px;
     &:before {
       content: "";
-      background: url('../images/head.png') no-repeat center;
-      width: 18px;
-      height: 16px;
+      background: url('../images/broken-heart.svg') no-repeat center;
+      width: 20px;
+      height: 20px;
       position: absolute;
       top: 0;
       left: 0;
@@ -3374,18 +3376,7 @@ color: #000000;
   margin-top: 15px;
 }
 
-.start-info {
-  max-width: 722px;
-  font-family: Roboto;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
-  padding: 75px 0;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .price-bottom-p {
   max-width: 1050px;
@@ -3401,4 +3392,62 @@ margin: 0 auto;
 
 .mt-80 {
   margin-top: 80px;
+}
+
+.results_n-img {
+  text-align: center;
+}
+
+.difference-item {
+  .title  {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 30px;
+    li {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+
+      color: #000000;
+      margin-bottom: 44px;
+    }
+  }
+}
+
+.difference {
+  padding: 60px 0;
+  .h2-title {
+    margin-bottom: 60px;
+  }
+}
+
+.start_info-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.start_info {
+  padding: 60px 0;
+}
+
+.start_info-img {
+  text-align: center;
 }
