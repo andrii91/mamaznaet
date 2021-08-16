@@ -241,5 +241,15 @@ $(document).ready(function () {
     },
   });*/
 
+  
+  
+  $('.pg-item_right').click(function(){
+    var srcClick = $(this).find('img').attr('src');
+    var srcFull = $('#idrpl').attr('src');
+    
+    $(this).find('img').attr('src', srcFull)
+    
+    $('#idrpl').attr('src', srcClick)
+  })
 
 });
