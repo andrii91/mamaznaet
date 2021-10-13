@@ -1,0 +1,53 @@
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue/BebasNeueRegular.eot');
+	src: local('BebasNeue/Bebas Neue Regular'), local('BebasNeue/BebasNeueRegular'),
+		url('BebasNeue/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeue/BebasNeueRegular.woff') format('woff'),
+		url('BebasNeue/BebasNeueRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('BebasNeue/BebasNeueBold.eot');
+	src: local('BebasNeue/Bebas Neue Bold'), local('BebasNeue/BebasNeueBold'),
+		url('BebasNeue/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+		url('BebasNeue/BebasNeueBold.woff') format('woff'),
+		url('BebasNeue/BebasNeueBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy/Gilroy-Regular.eot');
+    src: local('Gilroy/Gilroy Regular'), local('Gilroy/Gilroy-Regular'),
+        url('Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy/Gilroy-Regular.woff') format('woff'),
+        url('Gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy/Gilroy-Bold.eot');
+    src: local('Gilroy/Gilroy Bold'), local('Gilroy/Gilroy-Bold'),
+        url('Gilroy/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gilroy/Gilroy-Bold.woff') format('woff'),
+        url('Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+

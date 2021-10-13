@@ -1,0 +1,52 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+
+  //    @import '../mobile';
+  & {
+      main,
+  header,
+  footer {
+    overflow: hidden;
+  }
+    .head-img img {
+      margin-top: 0;
+    }
+
+    .container {
+      max-width: 560px;
+    }
+    
+    .head {
+      
+    background: url('../images/hbg-m.webp') no-repeat center;
+    background-size: cover;
+    }
+    .benefit-item {
+      padding-left: 25px;
+      padding-right: 25px;
+      text-align: center;
+      .title {
+        margin-left: 0;
+      }
+    }
+    .xs-none 
+    {
+      display: none;
+    }
+    .speaker-img img {
+      margin-bottom: 30px;
+    }
+    .speaker {
+      padding-bottom: 0;
+    }
+    .footer {
+      ul {
+        justify-content: center;
+        li {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
