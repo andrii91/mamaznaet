@@ -9,21 +9,11 @@ var server = require('gulp-server-livereload');
 var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 var uglify = require('gulp-uglify');
-
+var webp = require('gulp-webp');
 var uncss = require('gulp-uncss');
- 
-/*
-gulp.task('sass', async function() {
-    return sass('src/sass/main.scss', { sourcemap: true, style: 'compact' })
-        .on('error', sass.logError)
-        .pipe(sourcemaps.init({loadMaps: true}))
-        .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
-        .pipe(rename('app.css'))
-        .pipe(cleanCSS())
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('dist/css'));
-});
-*/
+
+
+
 gulp.task('sass', async function () {
     gulp.src('src/sass/main.scss')
         .pipe(sass())
@@ -31,11 +21,10 @@ gulp.task('sass', async function () {
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1'))
         .pipe(rename('app.css'))
         .pipe(cleanCSS())
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css'));
 
 });
-
 
 gulp.task('js', async function() {
     gulp.src([
@@ -48,10 +37,9 @@ gulp.task('js', async function() {
 gulp.task('js_v', async function() {
     gulp.src([
             'src/js/vendor/jquery.js',
-            // 'src/js/vendor/bootstrap.min.js',
-            // 'src/js/vendor/slick.min.js',
-            // 'src/js/vendor/lozad.js',
-            // 'src/js/vendor/jquery.animateNumber.min.js',
+            'src/js/vendor/slick.min.js',
+            'src/js/vendor/jquery.fancybox.min.js',
+            'src/js/vendor/jquery.formstyler.min.js',
             // 'src/js/vendor/jquery.scrollTo.js',
             // 'src/js/vendor/jquery.waypoints.min.js',
             // 'src/js/vendor/jqueryrotate.2.1.js',
@@ -63,7 +51,7 @@ gulp.task('js_v', async function() {
 
 gulp.task('images', async function(){
     return gulp.src('src/images/**/*.*')
-        //.pipe(cache(imagemin()))
+        .pipe(webp())
         .pipe(gulp.dest('dist/images'))
 });
 
@@ -105,5 +93,6 @@ gulp.task('default', async function() {
     gulp.watch('src/sass/**/*.scss', gulp.parallel('sass') );
     gulp.watch('src/images/**/*.*',  gulp.parallel('images'));
 });
+
 
 

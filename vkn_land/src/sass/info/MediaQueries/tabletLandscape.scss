@@ -1,0 +1,37 @@
+@import '../../mq';
+
+@media #{$tabletLandscape} {
+  @import '../desktop';
+.head {
+  overflow: hidden;
+}
+  .xs-first {
+    -ms-flex-order: inherit;
+    order: inherit;
+  }
+
+  .container {
+    max-width: 90%;
+
+  }
+  .head-item .date {
+    margin-left: 0;
+  }
+
+  .xs-block {
+    display: none !important;
+  }
+  .head-item h1 {
+    font-size: 55px;
+  }
+  .head-img:before {
+    width: 50vw;
+  }
+
+  .menu li a.btn {
+    width: inherit;
+  }
+  main {
+    overflow: hidden;
+  }
+}

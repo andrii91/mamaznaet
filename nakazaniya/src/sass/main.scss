@@ -2862,10 +2862,10 @@ body.compensate-for-scrollbar {
   }
 }
 
-.timer {
+.timer, .timer1 {
   div {
     display: inline-block;
-
+    position: relative;
     font-family: 'Bebas Neue';
     font-size: 53px;
     line-height: 29px;

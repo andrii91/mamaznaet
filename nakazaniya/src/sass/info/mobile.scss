@@ -136,7 +136,7 @@
   }
 
 
-  .timer span {
+  .timer span, .timer1 span {
     display: inline-block;
     font-size: 24px;
     line-height: 1;
@@ -238,4 +238,20 @@
   .speaker-item .title {
     display: none;
   }
+  .free_bonus {
+    padding-left: 15px;
+    padding-right: 15px;
+    ul {
+      padding-left: 20px;
+    }
+    .timer1 div {
+      width: 40px;
+    }
+  }
+  .free_bonus-img {
+    text-align: center;
+  img {
+   max-height: 35vh;
+  }
+}
 }

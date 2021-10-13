@@ -156,6 +156,63 @@ $(document).ready(function () {
     timer($('.timer').data('date').replace(/ /g,"T"));
   
   
+  function timer1(data) {
+
+
+    var end = new Date(data);
+
+    var _milisec = 10;
+    var _second = _milisec * 100;
+    var _minute = _second * 60;
+    var _hour = _minute * 60;
+    var _day = _hour * 24;
+
+    function showRemaining() {
+      var now = new Date();
+      var distance = end - now + 480000;
+
+      if (distance < 0) {
+
+        $('.timer1 .days').text("00");
+        $('.timer1 .hours').text("00");
+        $('.timer1 .minutes').text("00");
+        $('.timer1 .seconds').text("00");
+        $('.timer1 .milliseconds').text("00");
+
+        clearInterval(intervalTimer);
+        return;
+      }
+
+      var days = Math.floor(distance / _day);
+      var hours = Math.floor((distance % _day) / _hour);
+      var minutes = Math.floor((distance % _hour) / _minute);
+      var seconds = Math.floor((distance % _minute) / _second);
+      var miliseconds = Math.floor((distance % _second) / _milisec);
+
+      if (seconds < 10) seconds = '0' + seconds;
+      if (minutes < 10) minutes = '0' + minutes;
+      if (hours < 10) hours = '0' + hours;
+      if (days < 10) days = '0' + days;
+
+      $('.timer1 .days span').text(days);
+      $('.timer1 .hours span').text(hours);
+      $('.timer1 .minutes span').text(minutes);
+      $('.timer1 .seconds span').text(seconds);
+      $('.timer1 .milliseconds span').text(miliseconds);
+
+
+    };
+
+    var intervalTimer = setInterval(showRemaining, 10);
+  }
+  timer($('.timer').data('date').replace(/ /g, "T"));
+
+  if ($('div').hasClass('timer1')) {
+    console.log('sdsd');
+     timer1($('.timer1').data('date').replace(/ /g, "T"));
+  }
+
+
   $('.days').append('<b class="title">дней</b>');
   $('.hours').append('<b class="title">часов</b>');
   $('.minutes').append('<b class="title">минут</b>');
